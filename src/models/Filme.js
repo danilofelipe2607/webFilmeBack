@@ -7,6 +7,7 @@ const FilmeSchema = new mongoose.Schema(
     type: String,
     descripition: String,
     date: Date,
+	dateLancamento: Date,
     letter: String,
     url: String,
     observation: String,
